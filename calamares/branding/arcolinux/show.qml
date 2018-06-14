@@ -37,22 +37,9 @@ Presentation
             source: "calamares-arcolinux-intro.png"
             width: 800; height: 350
             fillMode: Image.PreserveAspectFit
-			anchors.centerIn: parents
+			anchors.centerIn: parent
         }
-/*
-        Text {
-            anchors.horizontalCenter: background1.horizontalCenter
-            anchors.top: background1.bottom
-            text: "Welcome to ArcoLinux <br/>"+
-                  "ArcoLinux is based on Arch Linux.<br/>"+
-                  "We bring you Xfce4, Openbox and i3 in one distro.<br/>"+
-                  "They all have a low cpu and memory consumption in common.<br/>"+
-				  "We believe it is an ideal roadmap to master Linux in that order."
-            wrapMode: Text.WordWrap
-            width: 600
-            horizontalAlignment: Text.Center
-        }
-*/
+
     }
 
     Slide {
@@ -62,7 +49,7 @@ Presentation
             source: "calamares-arcolinux-xfce.png"
             width: 800; height: 350
             fillMode: Image.PreserveAspectFit
-			anchors.centerIn: parents
+			anchors.centerIn: parent
         }
 
     }
@@ -74,7 +61,7 @@ Presentation
             source: "calamares-arcolinux-openbox.png"
             width: 800; height: 350
             fillMode: Image.PreserveAspectFit
-			anchors.centerIn: parents
+			anchors.centerIn: parent
         }
 
     }
@@ -86,7 +73,7 @@ Presentation
             source: "calamares-arcolinux-i3.png"
             width: 800; height: 350
             fillMode: Image.PreserveAspectFit
-			anchors.centerIn: parents
+			anchors.centerIn: parent
         }
 
     }
