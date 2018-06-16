@@ -34,7 +34,7 @@ Presentation
 
         Image {
             id: background1
-            source: "calamares-arcolinux-intro.png"
+            source: "calamares-0.png"
             width: 800; height: 350
             fillMode: Image.PreserveAspectFit
 			anchors.centerIn: parent
@@ -46,7 +46,7 @@ Presentation
 
         Image {
             id: background2
-            source: "calamares-arcolinux-xfce.png"
+            source: "calamares-1.png"
             width: 800; height: 350
             fillMode: Image.PreserveAspectFit
 			anchors.centerIn: parent
@@ -58,7 +58,7 @@ Presentation
 
         Image {
             id: background3
-            source: "calamares-arcolinux-openbox.png"
+            source: "calamares-2.png"
             width: 800; height: 350
             fillMode: Image.PreserveAspectFit
 			anchors.centerIn: parent
@@ -70,7 +70,7 @@ Presentation
 
         Image {
             id: background4
-            source: "calamares-arcolinux-i3.png"
+            source: "calamares-3.png"
             width: 800; height: 350
             fillMode: Image.PreserveAspectFit
 			anchors.centerIn: parent
